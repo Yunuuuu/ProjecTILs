@@ -21,7 +21,6 @@ Authors@R: c(
     comment = c(ORCID = '0000-0002-2495-0671'))
   )
 Description: This package implements methods to project single-cell RNA-seq data onto a reference atlas, enabling interpretation of unknown cell transcriptomic states in the the context of known, reference states. 
-Depends: R(>= 4.3.0)
 Imports: 
     Seurat(>= 5.0.0),
     SeuratObject(>= 5.0.0),
@@ -48,6 +47,8 @@ Suggests:
     fastICA,
     EnhancedVolcano,
     plotly,
+Remotes:
+    carmonalab/STACAS
 biocViews:
 BugReports: https://github.com/carmonalab/ProjecTILs/issues
 URL: https://github.com/carmonalab/ProjecTILs
